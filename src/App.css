@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+/* App.css */
+
+.color-palette {
+  display: flex;
+  gap: 5px;
+}
+
+.color-option {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+/* Add individual color styles as needed */
+.bg-red {
+  background-color: red;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+
